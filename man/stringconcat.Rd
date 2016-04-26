@@ -6,6 +6,9 @@
 \usage{
 a \%+\% b
 }
+\arguments{
+\item{a, }{b character strings to be concatenated together}
+}
 \description{
 Because \code{paste} is godawful.
 }
