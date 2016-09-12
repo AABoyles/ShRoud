@@ -8,3 +8,4 @@ Description: Repository of functions I wish were in Base R, including rescaling 
 License: GPL-2
 LazyData: TRUE
 RoxygenNote: 5.0.1
+Imports: sp
