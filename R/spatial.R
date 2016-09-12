@@ -19,7 +19,7 @@ PointsToPolygons <- function(points, x_offsets, y_offsets, dx = 1, dy = 1){
           sp::Polygon(
             list(
               x = df[i,1] + x_offsets * dx,
-              y = df(i,2) + y_offsets * dy
+              y = df[i,2] + y_offsets * dy
             )
           ), paste0("ID", i)
         )
