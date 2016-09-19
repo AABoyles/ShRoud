@@ -4,7 +4,7 @@
 #' @param y a single value of vector of the same length as \code{x} of predicted values
 #' @return root meas square error
 #' @examples
-#' rmse(x,y)
+#' rmse(runif(10),runif(10))
 #' @export
 
 rmse <- function(x,y) {

@@ -18,6 +18,6 @@ root meas square error
 Calculate root mean square error
 }
 \examples{
-rmse(x,y)
+rmse(runif(10),runif(10))
 }
 
