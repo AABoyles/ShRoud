@@ -1,5 +1,11 @@
 #' FixNAs
 #'
+#' @description Replaces missing values:
+#'   Integer columns get the integer closest to the arithmetic mean of the column,
+#'   Numeric columns get ther arithmetic mean of the column,
+#'   Columns of nothing but NAs get deleted,
+#'   And Character columns get the string 'Unknown'
+#'
 #' @param data a Dataframe with some NAs to replace
 #'
 #' @return A dataframe without any NAs

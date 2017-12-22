@@ -12,4 +12,3 @@ PointsToHexagons(points)
 \description{
 Takes a SpatialPoints object, draws hexagons around the points, and returns the SpatialPolygons object.
 }
-

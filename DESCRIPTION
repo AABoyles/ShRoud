@@ -1,11 +1,11 @@
 Package: ShRoud
 Type: Package
-Title: Repository of functions I wish were in Base R
-Version: 0.1.0
+Title: Repository of functions I wish were in R
+Version: 0.1.1
 Author: Tony Boyles
 Maintainer: Tony Boyles <Anthony@Boyles.cc>
-Description: Repository of functions I wish were in Base R, including rescaling and recentering functions.
+Description: Repository of functions I wish were in R, including: rescaling and recentering functions, RMSE, some nice spatial translation functions, and quirky file handlers.
 License: GPL-2
 LazyData: TRUE
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Imports: sp

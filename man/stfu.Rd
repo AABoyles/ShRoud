@@ -16,9 +16,6 @@ whatever expr should return
 Given an expression, stfu evaluates and returns the value of the expression, but supressesses output to the console.
 }
 \examples{
-> stfu(print("Foo"))
-[1] "Foo"
-> stfu(cat("Foo"))
-NULL
+stfu(print('Foo'))
+stfu(cat('Foo'))
 }
-

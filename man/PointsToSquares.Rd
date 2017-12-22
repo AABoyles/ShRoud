@@ -12,4 +12,3 @@ PointsToSquares(points)
 \description{
 Takes a SpatialPoints object, draws squares around the points, and returns the SpatialPolygons object.
 }
-

@@ -15,4 +15,3 @@ A Dataframe with all the character columns replaced by factor columns
 \description{
 Factorize
 }
-

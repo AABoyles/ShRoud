@@ -3,8 +3,8 @@
 \name{rescale}
 \alias{rescale}
 \alias{rescale01}
-\alias{rescale100}
 \alias{rescale11}
+\alias{rescale100}
 \title{Rescaling functions}
 \usage{
 rescale(x, minx, maxx)
@@ -27,4 +27,3 @@ A Family of functions for transform the values of a vector
 such that it falls into a specified range, without modifying
 the ratios between values.
 }
-

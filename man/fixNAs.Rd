@@ -4,7 +4,7 @@
 \alias{fixNAs}
 \title{FixNAs}
 \usage{
-fixNAs(data)
+fixNAs(data, replacement = "Unknown")
 }
 \arguments{
 \item{data}{a Dataframe with some NAs to replace}
@@ -13,6 +13,9 @@ fixNAs(data)
 A dataframe without any NAs
 }
 \description{
-FixNAs
+Replaces missing values:
+  Integer columns get the integer closest to the arithmetic mean of the column,
+  Numeric columns get ther arithmetic mean of the column,
+  Columns of nothing but NAs get deleted,
+  And Character columns get the string 'Unknown'
 }
-

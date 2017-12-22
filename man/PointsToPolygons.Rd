@@ -12,4 +12,3 @@ PointsToPolygons(points, x_offsets, y_offsets, dx = 1, dy = 1)
 \description{
 Points to Polygons
 }
-

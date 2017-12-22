@@ -12,4 +12,3 @@ a \%+\% b
 \description{
 Because \code{paste} is godawful.
 }
-

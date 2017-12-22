@@ -8,15 +8,13 @@
 #' @export
 #'
 #' @examples
-#' > stfu(print("Foo"))
-#' [1] "Foo"
-#' > stfu(cat("Foo"))
-#' NULL
-stfu <- function(expr){
-  fileloc <- tempfile()
-  sink(fileloc)
-  foo <- eval(expr)
-  sink(NULL)
-  unlink(fileloc)
-  return(foo)
+#' stfu(print('Foo'))
+#' stfu(cat('Foo'))
+stfu <- function(expr) {
+    fileloc <- tempfile()
+    sink(fileloc)
+    foo <- eval(expr)
+    sink(NULL)
+    unlink(fileloc)
+    return(foo)
 }

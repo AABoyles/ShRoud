@@ -20,4 +20,3 @@ Calculate root mean square error
 \examples{
 rmse(runif(10),runif(10))
 }
-
